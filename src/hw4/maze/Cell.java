@@ -2,11 +2,19 @@ package hw4.maze;
 
 public class Cell {
 	
+	boolean isExit = false;
 	CellComponents up;
 	CellComponents down;
 	CellComponents left;
 	CellComponents right;
 	
+	/**
+	 * Cell constructor that assigns the left, right, top and bottom of the cell
+	 * @param left
+	 * @param right
+	 * @param up
+	 * @param down
+	 */
 	public Cell(CellComponents left, CellComponents right, CellComponents up, CellComponents down){
 		this.left = left;
 		this.right = right;

@@ -8,6 +8,11 @@ public class Player {
 	Row currentRow;
 	Cell currentCell;
 	
+	/**
+	 * Player is a set coordinate of the grid
+	 * @param row
+	 * @param cell
+	 */
 	public Player(Row row, Cell cell){
 		this.currentRow = row;
 		this.currentCell = cell;
